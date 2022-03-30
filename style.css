@@ -23,6 +23,7 @@
 
 body {
     background: var(--purple) ;
+    max-width: 95vw;
 }
 
 .box {
@@ -50,6 +51,7 @@ mark {
     color: var(--white);
     background-color: inherit;
 }
+
 /* Sidebar */
 
 .nav {
