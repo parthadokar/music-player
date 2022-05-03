@@ -132,7 +132,7 @@ mark {
 
 .banner {
     background: url(images/main/banner.jpg) no-repeat;
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-right: 2rem;
     color: var(--white);
 }
@@ -158,6 +158,19 @@ mark {
     justify-content: space-between;
     align-items: center;
     width: 95%;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.song a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
 }
 /* Sidebar-2 */
 
