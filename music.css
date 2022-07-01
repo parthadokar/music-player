@@ -137,3 +137,14 @@ h1 {
   width: 0%;
   transition: width 0.1s linear;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
+  color: #cdc2d0
+}
