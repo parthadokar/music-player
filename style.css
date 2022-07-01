@@ -115,10 +115,11 @@ mark {
     display: flex;
     align-items: center;
     background-color: var(--white);
-    height: 4vh;
+    height: 2vh;
     width: 60%;
     padding: 1rem;
     border-radius: 100px;
+    margin-top: 1rem;
 }
 
 .search input {
@@ -172,6 +173,7 @@ mark {
     font-family: inherit;
     color: inherit;
 }
+
 /* Sidebar-2 */
 
 .sidebar-2 {
