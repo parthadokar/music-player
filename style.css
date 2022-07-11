@@ -38,18 +38,6 @@ i {
     font-size: 20px;
 }
 
-.red {
-    color: var(--red);
-}
-
-.yellow {
-    color: var(--yellow);
-}
-
-.green {
-    color: var(--green);
-}
-
 mark {
     color: var(--white);
     background-color: inherit;
@@ -226,4 +214,15 @@ mark {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+/* Dark mode  */
+
+.dark_mode {
+    background: #ffffff;
+    color: #000;
+}
+
+.dark_mode mark,.dark_mode i {
+    color: #000;
 }

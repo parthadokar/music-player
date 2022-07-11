@@ -11,6 +11,15 @@ const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
+
+// Dark Mode
+
+let theme_toggler = document.querySelector('#theme_toggler');
+
+theme_toggler.addEventListener('click', function(){ 
+    document.body.classList.toggle('dark_mode');
+});
+
 // Song titles
 const songs = ['Wildest Dreams', 'Cardigan', 'Lover','Exile'];
 
@@ -176,3 +185,4 @@ audio.addEventListener('ended', nextSong);
 
 // Time of song
 audio.addEventListener('timeupdate',DurTime);
+
